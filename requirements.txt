@@ -1,6 +1,7 @@
 torch
 torchvision
-Pillow
-streamlit
 grad-cam
+streamlit
+Pillow
 numpy
+matplotlib

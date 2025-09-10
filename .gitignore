@@ -1,0 +1,13 @@
+# Ignore the organized dataset directory
+/Users/azratuncay/Desktop/hackathon/organized_dataset/
+
+# Ignore the trained model file
+derm_ai_model.pth
+
+# Ignore PyTorch cache and other temporary files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment folder
+.venv/
+venv/
