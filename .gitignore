@@ -1,13 +1,26 @@
-# Ignore the organized dataset directory
-/Users/azratuncay/Desktop/hackathon/organized_dataset/
+# Gitignore for Derm-AI Project
+
+# Ignore the organized and split dataset directories
+# These are large files and should not be tracked in Git.
+organized_dataset/
+split_dataset/
+unzipped_temp/
 
 # Ignore the trained model file
 derm_ai_model.pth
 
-# Ignore PyTorch cache and other temporary files
+# Ignore Python-specific files and directories
 __pycache__/
 *.pyc
+*.pyo
 
-# Ignore the virtual environment folder
+# Ignore virtual environments
 .venv/
 venv/
+env/
+
+# Ignore IDE files (e.g., VS Code)
+.vscode/
+
+# Ignore Streamlit temporary files
+.streamlit/

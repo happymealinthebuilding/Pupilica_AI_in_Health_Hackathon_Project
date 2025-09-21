@@ -1,7 +1,10 @@
+split-folders
+streamlit
+pyngrok
+opencv-python
 torch
 torchvision
-grad-cam
-streamlit
-Pillow
+pandas
 numpy
-matplotlib
+tqdm
+scikit-learn
